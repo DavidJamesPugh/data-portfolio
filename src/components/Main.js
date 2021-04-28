@@ -114,11 +114,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
-          <span className="image main">
-          </span>
+          <h2 className="major" style="align:center;">Contact</h2>
           <p>
-            <ul>
+            <ul style="align:center;">
             <li>
               davidjamespugh@gmail.com
             </li>
