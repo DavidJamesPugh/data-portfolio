@@ -8,11 +8,11 @@ class Main extends React.Component {
   render() {
     let close = (
       <div
-        className="close"
-        onClick={() => {
-          this.props.onCloseArticle()
-        }}
-      ></div>
+    className="close"
+    onClick={() => {
+      this.props.onCloseArticle()
+    }}
+    />
     )
 
     return (
@@ -116,22 +116,20 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
           </span>
           <p>
-            Email: davidjamespugh@gmail.com
-            LinkedIn: https://www.linkedin.com/in/david-james-pugh/
-            Github: https://github.com/DavidJamesPugh
-          </p>
-          <ul className="icons">
+            <ul style="align:center;">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-              </a>
+              davidjamespugh@gmail.com
             </li>
-          </ul>
+            <li>
+              <a href="https://www.linkedin.com/in/david-james-pugh/">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://github.com/DavidJamesPugh">Github</a>
+            </li>
+            </ul>
+          </p>
           {close}
         </article>
       </div>
