@@ -12,7 +12,7 @@ class Main extends React.Component {
     onClick={() => {
       this.props.onCloseArticle()
     }}
-    />
+      ></div>
     )
 
     return (
