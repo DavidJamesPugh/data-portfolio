@@ -114,9 +114,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major align-center">Contact</h2>
           <p>
-            <ul class="align-center">
+            <ul className="contact">
             <li>
               davidjamespugh@gmail.com
             </li>
