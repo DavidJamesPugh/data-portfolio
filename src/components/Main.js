@@ -118,7 +118,7 @@ class Main extends React.Component {
           <span className="image main">
           </span>
           <p>
-            <ul style="align:center;">
+            <ul style={"align:center;"}>
             <li>
               davidjamespugh@gmail.com
             </li>
