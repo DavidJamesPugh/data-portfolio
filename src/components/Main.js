@@ -116,7 +116,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <p>
-            <ul style="align:center;">
+            <ul class="align-center">
             <li>
               davidjamespugh@gmail.com
             </li>
