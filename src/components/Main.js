@@ -93,11 +93,17 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Resume</h2>
-          <p>
             <h3 className="major align-center">Education</h3>
-          </p>
+
             <h4>Bachelors of Science, Statistics
             <br />The University of Auckland</h4>
+          <p className="small">
+            Statistics
+            <br/>Computer Science
+            <br/>Maths
+            <br/>Philosophy
+            <br/>Accounting
+          </p>
           <p className="small">
             Statistics
             <br/>Computer Science
@@ -119,6 +125,10 @@ class Main extends React.Component {
           </p>
           <h3 className="major">Work Experience</h3>
 
+<h4 className="align-center">Wilderland Organics (March 2020 - April 2021)
+            <br/>
+            Planning, People Team Leader, Financial Manager
+          </h4>
           <h4 className="align-center">Wilderland Organics (March 2020 - April 2021)
             <br/>
             Planning, People Team Leader, Financial Manager
