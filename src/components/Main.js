@@ -96,8 +96,8 @@ class Main extends React.Component {
           <p>
             <h3 className="major align-center">Education</h3>
           </p>
-          <p>
-            Bachelors of Science, Statistics
+          <p className="small">
+            <h4>Bachelors of Science, Statistics</h4>
             <ul>
               <li>Statistics</li>
               <li>Computer Science</li>
@@ -106,8 +106,8 @@ class Main extends React.Component {
               <li>Accounting</li>
             </ul>
           </p>
-          <p>
-            Certificate in Apiculture Level 3
+          <p className="small">
+            <h4>Certificate in Apiculture Level 3</h4>
             <ul>
               <li>Hive Inspections</li>
               <li>Honey Extraction (3 Frame Spinner)</li>
@@ -124,7 +124,7 @@ class Main extends React.Component {
             <br/>
             Planning Team Leader, People Team Leader, Financial Manager
           </h4>
-          <p>
+          <p className="small">
             <ul>
               <li>
               Leading volunteers, and supporting Students and other community members to enable work projects to flourish
@@ -174,7 +174,7 @@ class Main extends React.Component {
               </li>
             </ul>
           </p>
-          <h4 className="align-center">Eastridge & Accent Construction (September 2010 - January 2012)
+          <h4 className="align-center">Eastridge & Accent Construction (Sept 2010 - Jan 2012)
             <br/>
             Hammerhand
           </h4>
