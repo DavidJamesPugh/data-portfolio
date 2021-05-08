@@ -94,7 +94,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Resume</h2>
           <p>
-            <h3 className="major">Education</h3>
+            <h3 className="major align-center">Education</h3>
           </p>
           <p>
             Bachelors of Science, Statistics
@@ -102,7 +102,7 @@ class Main extends React.Component {
           <p>
             Certificate in Apiculture Level 3
           </p>
-          <hr>
+          <hr />
           <p>
             <h3 className="major">Work Experience</h3>
           </p>
@@ -161,7 +161,7 @@ class Main extends React.Component {
             <br/>
             Hammerhand
           </p>
-          <hr>
+          <hr />
           <p>
             <h3 className="major">Volunteership</h3>
             <p>
