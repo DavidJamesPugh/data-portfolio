@@ -94,7 +94,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Resume</h2>
           <p>
-            <h3 className="major">Education</h3>
+            <h3 className="major align-center">Education</h3>
           </p>
           <p>
             Bachelors of Science, Statistics
@@ -102,10 +102,11 @@ class Main extends React.Component {
           <p>
             Certificate in Apiculture Level 3
           </p>
+          <hr>
           <p>
-            <h3 className="major">Work Experience</h3>
+            <h3 className="major align-center">Work Experience</h3>
           </p>
-          <p>
+          <p className="align-center">
             Wilderland Organics (March 2020 - April 2021)
             <br/>
             Planning Team Leader, People Team Leader, Financial Manager
@@ -122,11 +123,10 @@ class Main extends React.Component {
             </ul>
           </p>
           <p>
-            St Andrew's Village (March 2017 - February 2020)
+            <h4 className="align-center">St Andrew's Village (March 2017 - February 2020)</h4>
             <br/>
             Data Analyst
-          </p>
-          <ul>
+            <ul>
             <li>
               Using Excel, Python, Power BI, and R to create databases, data visualisations, statistical models, and
               time series to present an in depth summary of our healthcare outcomes to the Executive Team weekly
@@ -137,11 +137,17 @@ class Main extends React.Component {
               management for appropriate access levels)
             </li>
           </ul>
+          </p>
+
           <p>
-            Positive ID & Sth Akl Line Markers (April 2015 - March 2017)
+            <p className="align-center">Positive ID & Sth Akl Line Markers (April 2015 - March 2017)
             <br/>
             Office Administrator
+            </p>
             <ul>
+              <li>
+              2IC of two small businesses
+              </li>
               <li>
                 Extensive usage of Xero for bookkeeping
               </li>
@@ -150,16 +156,12 @@ class Main extends React.Component {
               </li>
             </ul>
           </p>
-          <ul>
-            <li>
-              2IC of two small businesses
-            </li>
-          </ul>
           <p>
             Eastridge & Accent Construction (September 2010 - January 2012)
             <br/>
             Hammerhand
           </p>
+          <hr>
           <p>
             <h3 className="major">Volunteership</h3>
             <p>
