@@ -98,24 +98,19 @@ class Main extends React.Component {
           </p>
           <p className="small">
             <h4>Bachelors of Science, Statistics</h4>
-            <ul>
-              <li>Statistics</li>
-              <li>Computer Science</li>
-              <li>Maths</li>
-              <li>Philosophy</li>
-              <li>Accounting</li>
-            </ul>
+            Statistics
+            <br/>Computer Science
+            <br/>Maths
+            <br/>Philosophy
+            <br/>Accounting
           </p>
           <p className="small">
             <h4>Certificate in Apiculture Level 3</h4>
-            <ul>
-              <li>Hive Inspections</li>
-              <li>Honey Extraction (3 Frame Spinner)</li>
-              <li>Queen Rearing</li>
-              <li>Feeding</li>
-              <li>Disease & Pest Management</li>
-              <li>Education & Teaching</li>
-            </ul>
+            Hive InspectionsHoney Extraction (3 Frame Spinner)
+            <br/> Queen Rearing
+            <br/>Feeding
+            <br/>Disease & Pest Management
+            <br/>Education & Teaching
           </p>
           <p>
             <h3 className="major">Work Experience</h3>
@@ -124,7 +119,7 @@ class Main extends React.Component {
             <br/>
             Planning Team Leader, People Team Leader, Financial Manager
           </h4>
-          <p className="small">
+          <p>
             <ul>
               <li>
               Leading volunteers, and supporting Students and other community members to enable work projects to flourish
@@ -157,7 +152,7 @@ class Main extends React.Component {
           </p>
 
 
-            <h4 className="align-center">Positive ID & Sth Akl Line Markers (April 2015 - March 2017)
+          <h4 className="align-center">Positive ID & Sth Akl Line Markers (April 2015 - March 2017)
             <br/>
             Office Administrator
             </h4>
