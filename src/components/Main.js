@@ -104,13 +104,6 @@ class Main extends React.Component {
             <br/>Philosophy
             <br/>Accounting
           </p>
-          <p className="small">
-            Statistics
-            <br/>Computer Science
-            <br/>Maths
-            <br/>Philosophy
-            <br/>Accounting
-          </p>
 
             <h4>Certificate in Apiculture Level 3
             <br />Toi Ohomai Institute of Tecnology
@@ -125,10 +118,6 @@ class Main extends React.Component {
           </p>
           <h3 className="major">Work Experience</h3>
 
-<h4 className="align-center">Wilderland Organics (March 2020 - April 2021)
-            <br/>
-            Planning, People Team Leader, Financial Manager
-          </h4>
           <h4 className="align-center">Wilderland Organics (March 2020 - April 2021)
             <br/>
             Planning, People Team Leader, Financial Manager
@@ -202,6 +191,14 @@ class Main extends React.Component {
             <br/>
             Hammerhand
           </h4>
+          <ul>
+            <li>
+              Framing out walls, cladding, linings, finishing, and renovating to specification
+            </li>
+            <li>
+              Assisting in labour around the various building sites in a Health and Safety conscious manner
+            </li>
+          </ul>
 
 
             <h3 className="major">Volunteership</h3>
