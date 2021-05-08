@@ -94,7 +94,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Resume</h2>
           <p>
-            <h3 className="major align-center">Education</h3>
+            <h3 className="major">Education</h3>
           </p>
           <p>
             Bachelors of Science, Statistics
@@ -104,7 +104,7 @@ class Main extends React.Component {
           </p>
           <hr>
           <p>
-            <h3 className="major align-center">Work Experience</h3>
+            <h3 className="major">Work Experience</h3>
           </p>
           <p className="align-center">
             Wilderland Organics (March 2020 - April 2021)
