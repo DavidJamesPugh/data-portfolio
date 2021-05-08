@@ -96,16 +96,17 @@ class Main extends React.Component {
           <p>
             <h3 className="major align-center">Education</h3>
           </p>
-          <p className="small">
             <h4>Bachelors of Science, Statistics</h4>
+          <p className="small">
             Statistics
             <br/>Computer Science
             <br/>Maths
             <br/>Philosophy
             <br/>Accounting
           </p>
-          <p className="small">
+
             <h4>Certificate in Apiculture Level 3</h4>
+          <p className="small">
             Hive Inspections
             <br/>Honey Extraction (3 Frame Spinner)
             <br/>Queen Rearing
@@ -115,6 +116,10 @@ class Main extends React.Component {
           </p>
           <h3 className="major">Work Experience</h3>
 
+          <h4 className="align-center">Wilderland Organics (March 2020 - April 2021)
+            <br/>
+            Planning, People Team Leader, Financial Manager
+          </h4>
           <h4 className="align-center">Wilderland Organics (March 2020 - April 2021)
             <br/>
             Planning, People Team Leader, Financial Manager
@@ -145,8 +150,6 @@ class Main extends React.Component {
             </li>
             <li>
               Manage the supply, costings, installation, training, and management of new IT infrastructure on site
-              (Time keeping devices, Cloud Based Healthcare management software, and 600+ RFID keytag locks with database
-              management for appropriate access levels)
             </li>
           </ul>
           </p>
