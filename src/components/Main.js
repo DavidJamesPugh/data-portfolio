@@ -107,21 +107,70 @@ class Main extends React.Component {
           </p>
           <p>
             Wilderland Organics (March 2020 - April 2021)
+            <br/>
+            Planning Team Leader, People Team Leader, Financial Manager
+            <ul>
+              <li>
+              Leading volunteers, and supporting Students and other community members to enable work projects to flourish
+              </li>
+              <li>
+                Bookkeeping and financial reports using Xero for Wilderland Trust
+              </li>
+              <li>
+                Making and reporting of financial decisions to facilitate the functioning of Wilderland
+              </li>
+            </ul>
           </p>
           <p>
             St Andrew's Village (March 2017 - February 2020)
+            <br/>
+            Data Analyst
           </p>
+          <ul>
+            <li>
+              Using Excel, Python, Power BI, and R to create databases, data visualisations, statistical models, and
+              time series to present an in depth summary of our healthcare outcomes to the Executive Team weekly
+            </li>
+            <li>
+              Manage the supply, costings, installation, training, and management of new IT infrastructure on site
+              (Time keeping devices, Cloud Based Healthcare management software, and 600+ RFID keytag locks with database
+              management for appropriate access levels)
+            </li>
+          </ul>
           <p>
             Positive ID & Sth Akl Line Markers (April 2015 - March 2017)
+            <br/>
+            Office Administrator
+            <ul>
+              <li>
+                Extensive usage of Xero for bookkeeping
+              </li>
+              <li>
+                Liaising with external companies to  determine and deliver requirements
+              </li>
+            </ul>
           </p>
+          <ul>
+            <li>
+              2IC of two small businesses
+            </li>
+          </ul>
           <p>
             Eastridge & Accent Construction (September 2010 - January 2012)
+            <br/>
+            Hammerhand
           </p>
           <p>
             <h3 className="major">Volunteership</h3>
             <p>
               Kiwiburn Web Team Member (May 2021 - Current)
             </p>
+            <ul>
+              <li>
+                Database creation and data migration into Airtable to support creation of timetables
+                and volunteer rosters to facilitate organisation of Kiwiburn
+              </li>
+            </ul>
           </p>
           {close}
         </article>
