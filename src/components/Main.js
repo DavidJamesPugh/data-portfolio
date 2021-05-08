@@ -106,18 +106,18 @@ class Main extends React.Component {
           </p>
           <p className="small">
             <h4>Certificate in Apiculture Level 3</h4>
-            Hive InspectionsHoney Extraction (3 Frame Spinner)
-            <br/> Queen Rearing
+            Hive Inspections
+            <br/>Honey Extraction (3 Frame Spinner)
+            <br/>Queen Rearing
             <br/>Feeding
             <br/>Disease & Pest Management
             <br/>Education & Teaching
           </p>
-          <p>
-            <h3 className="major">Work Experience</h3>
-          </p>
+          <h3 className="major">Work Experience</h3>
+
           <h4 className="align-center">Wilderland Organics (March 2020 - April 2021)
             <br/>
-            Planning Team Leader, People Team Leader, Financial Manager
+            Planning, People Team Leader, Financial Manager
           </h4>
           <p>
             <ul>
