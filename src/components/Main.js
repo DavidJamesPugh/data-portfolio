@@ -98,18 +98,33 @@ class Main extends React.Component {
           </p>
           <p>
             Bachelors of Science, Statistics
+            <ul>
+              <li>Statistics</li>
+              <li>Computer Science</li>
+              <li>Maths</li>
+              <li>Philosophy</li>
+              <li>Accounting</li>
+            </ul>
           </p>
           <p>
             Certificate in Apiculture Level 3
+            <ul>
+              <li>Hive Inspections</li>
+              <li>Honey Extraction (3 Frame Spinner)</li>
+              <li>Queen Rearing</li>
+              <li>Feeding</li>
+              <li>Disease & Pest Management</li>
+              <li>Education & Teaching</li>
+            </ul>
           </p>
-          <hr />
           <p>
             <h3 className="major">Work Experience</h3>
           </p>
-          <p className="align-center">
-            Wilderland Organics (March 2020 - April 2021)
+          <h4 className="align-center">Wilderland Organics (March 2020 - April 2021)
             <br/>
             Planning Team Leader, People Team Leader, Financial Manager
+          </h4>
+          <p>
             <ul>
               <li>
               Leading volunteers, and supporting Students and other community members to enable work projects to flourish
@@ -122,10 +137,12 @@ class Main extends React.Component {
               </li>
             </ul>
           </p>
-          <p>
-            <h4 className="align-center">St Andrew's Village (March 2017 - February 2020)</h4>
+
+          <h4 className="align-center">St Andrew's Village (March 2017 - February 2020)
             <br/>
             Data Analyst
+          </h4>
+          <p>
             <ul>
             <li>
               Using Excel, Python, Power BI, and R to create databases, data visualisations, statistical models, and
@@ -139,11 +156,12 @@ class Main extends React.Component {
           </ul>
           </p>
 
-          <p>
-            <p className="align-center">Positive ID & Sth Akl Line Markers (April 2015 - March 2017)
+
+            <h4 className="align-center">Positive ID & Sth Akl Line Markers (April 2015 - March 2017)
             <br/>
             Office Administrator
-            </p>
+            </h4>
+          <p>
             <ul>
               <li>
               2IC of two small businesses
@@ -156,17 +174,17 @@ class Main extends React.Component {
               </li>
             </ul>
           </p>
-          <p>
-            Eastridge & Accent Construction (September 2010 - January 2012)
+          <h4 className="align-center">Eastridge & Accent Construction (September 2010 - January 2012)
             <br/>
             Hammerhand
-          </p>
-          <hr />
-          <p>
+          </h4>
+
+
             <h3 className="major">Volunteership</h3>
-            <p>
+            <h4 className="align-center">
               Kiwiburn Web Team Member (May 2021 - Current)
-            </p>
+            </h4>
+            <p>
             <ul>
               <li>
                 Database creation and data migration into Airtable to support creation of timetables
