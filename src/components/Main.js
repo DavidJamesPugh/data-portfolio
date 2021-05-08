@@ -93,20 +93,35 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Resume</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
           <p>
-            Education
+            <h3 className="major">Education</h3>
           </p>
           <p>
-
+            Bachelors of Science, Statistics
           </p>
           <p>
-            Work Experience
+            Certificate in Apiculture Level 3
           </p>
           <p>
-            Volunteership
+            <h3 className="major">Work Experience</h3>
+          </p>
+          <p>
+            Wilderland Organics (March 2020 - April 2021)
+          </p>
+          <p>
+            St Andrew's Village (March 2017 - February 2020)
+          </p>
+          <p>
+            Positive ID & Sth Akl Line Markers (April 2015 - March 2017)
+          </p>
+          <p>
+            Eastridge & Accent Construction (September 2010 - January 2012)
+          </p>
+          <p>
+            <h3 className="major">Volunteership</h3>
+            <p>
+              Kiwiburn Web Team Member (May 2021 - Current)
+            </p>
           </p>
           {close}
         </article>
