@@ -24,7 +24,11 @@ const Header = props => (
           </button>
         </li>
         <li>
-          <button onClick="location.href='/main_projects'">
+          <button
+            onClick={() => {
+              props.onOpenArticle('work')
+            }}
+          >
             Work
           </button>
         </li>

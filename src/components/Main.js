@@ -3,6 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import {Link} from "gatsby";
 
 class Main extends React.Component {
   render() {
@@ -65,6 +66,7 @@ class Main extends React.Component {
 
           <div className="logo">
           <span className="icon fa-diamond"></span>
+            <Link to={"/main_projects"}>Link to Projects</Link>
           </div>
 
           {close}
