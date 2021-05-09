@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import {Link} from "gatsby";
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -23,11 +24,8 @@ const Header = props => (
           </button>
         </li>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('work')
-            }}
-          >
+          <button>
+            <Link to="/main_projects"></Link>
             Work
           </button>
         </li>

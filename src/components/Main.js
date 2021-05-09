@@ -66,42 +66,7 @@ class Main extends React.Component {
           <div className="logo">
           <span className="icon fa-diamond"></span>
           </div>
-          <div className="content">
-            <div className="inner">
-              <h1>David James Pugh</h1>
-            </div>
-          </div>
-          <nav>
-            <ul>
-              <li>
-                <button
-                onClick={() => {
-                  props.onOpenArticle('project1')
-                }}
-                >
-                project1
-                </button>
-              </li>
-              <li>
-                <button
-                onClick={() => {
-                  props.onOpenArticle('project2')
-                }}
-                >
-                project2
-                </button>
-              </li>
-              <li>
-                <button
-                onClick={() => {
-                  props.onOpenArticle('project3')
-                }}
-                >
-                project3
-                </button>
-              </li>
-            </ul>
-          </nav>
+
           {close}
         </article>
 
