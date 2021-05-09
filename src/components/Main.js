@@ -64,11 +64,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
 
-          <div className="logo">
-          <span className="icon fa-diamond"></span>
             <h2 className="major">Project List</h2>
             <Link to="/main_projects">Link to Projects</Link>
-          </div>
 
           {close}
         </article>
