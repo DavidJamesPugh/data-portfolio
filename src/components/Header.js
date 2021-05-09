@@ -24,7 +24,7 @@ const Header = props => (
           </button>
         </li>
         <li>
-          <button onClick="window.location.href='/main_projects'">
+          <button onClick={() => {props.location.href='/main_projects'}}>
             Work
           </button>
         </li>
