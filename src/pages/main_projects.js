@@ -5,9 +5,11 @@ import Layout from '../components/layout'
 
 const SecondPage = () => (
   <Layout>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <h1>Investigating Covid using Shiny</h1>
+      <iframe height="400" width="400" frameBorder="no"
+              src="Covidmap.html"></iframe>
     <Link to="/">Go back to the homepage</Link>
+
   </Layout>
 )
 
