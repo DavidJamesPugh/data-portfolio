@@ -6,8 +6,10 @@ import Layout from '../components/layout'
 const SecondPage = () => (
   <Layout>
     <h1>Investigating Covid using Shiny</h1>
-      <iframe height="400" width="400" frameBorder="no"
-              src="Covidmap.html"></iframe>
+      <iframe height="400" width="400" frameBorder="0"
+              src="covid_map.html"></iframe>
+      <iframe height="400" width="400" frameBorder="0"
+              src="https://davidjamespugh.shinyapps.io/nzcovidcases/"></iframe>
     <Link to="/">Go back to the homepage</Link>
 
   </Layout>
