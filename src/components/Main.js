@@ -63,6 +63,15 @@ class Main extends React.Component {
                 <p>Investigating Rents in Wellington</p>
               </div>
             </div>
+            <img src={pic03} className="image" height="200px" width="100%" alt="ridgeplot" />
+              <div className="middle">
+                <div className="text">
+                  <h2><a href='../pages/covid_map.js' className="project-text">
+                    NZ's Covid Story
+                  </a></h2>
+                <p>Investigating Covid in NZ</p>
+              </div>
+            </div>
           </div>
           {close}
         </article>
