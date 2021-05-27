@@ -219,7 +219,7 @@
 }
 
 
-.main-wrapper {
+.second-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -230,4 +230,11 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: transform, opacity;
     transform: translate(0px, 0px) scale(1);
+}
+
+.main-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 802.188px;
+    transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
