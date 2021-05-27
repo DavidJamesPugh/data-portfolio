@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import wellington_plot from'../images/wellington_district.png'
 import {Link} from "gatsby";
 
 class Main extends React.Component {
@@ -54,14 +53,10 @@ class Main extends React.Component {
         >
 
           <h2 className="major">Project List</h2>
-          <div className="col-md-4 portfolio-item shuffle-item shuffle-item--visible"
-               data-groups="[&quot;client-projects&quot;]"
-               style="position: absolute; top: 0px; left: 0px; visibility: visible;
-               will-change: transform; opacity: 1; transition-duration: 250ms;
-               transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
-            <img src="/images/wellington_district" alt="ridgeplot" />
-            <div className="portfolio-hover">
-              <div className="portfolio-content">
+          <div>
+            <img src={wellington_plot} alt="ridgeplot" />
+            <div>
+              <div>
                 <Link to="/wellington_col" target="_blank">Wellington Rents</Link>
                 <p>Investigating Rents in Wellington</p>
               </div>
