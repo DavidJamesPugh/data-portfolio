@@ -200,13 +200,13 @@
 
 
 	.container {
-	  position: relative;
+	  display: inline-block;
 	  width: 100%;
 	}
 
 	.image {
 		opacity: 1;
-		display: block;
+		display: inline-block;
 		width: 50%;
 		height: auto;
 		transition: .5s ease;
