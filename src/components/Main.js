@@ -65,7 +65,7 @@ class Main extends React.Component {
             </div>
           </div>
           <div className="container">
-            <img src={pic03} className="image" height="200px" width="100%" alt="ridgeplot" />
+            <img src={wellington_plot} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
                 <div className="text">
                   <h2><a href='../pages/covid_map.js' className="project-text">
