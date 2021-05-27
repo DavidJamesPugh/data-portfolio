@@ -202,6 +202,7 @@
 	.container {
 	  display: inline-block;
 	  width: 100%;
+		height:200px;
 	}
 
 	.image {
@@ -240,4 +241,6 @@
 		color: white;
 		font-size: 16px;
 		padding: 16px 32px;
+		width:75%;
+		height:75%;
 	}
