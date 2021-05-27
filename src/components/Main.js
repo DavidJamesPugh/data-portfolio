@@ -52,11 +52,11 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
 
-          <h2 className="major">Project List</h2>
+          <h2 className="major align-center">Project List</h2>
           <div className="container">
-            <img src={wellington_plot} className="image" height="200px" width="390px" alt="ridgeplot" />
+            <img src={wellington_plot} className="image align-center" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
-              <div className="text">Wellington Rents
+                <div className="text"><h2>Wellington Rents</h2>
                 <p>Investigating Rents in Wellington</p>
               </div>
             </div>
