@@ -55,6 +55,7 @@ class Main extends React.Component {
           <h2 className="major">Project List</h2>
           <div>
             <img src={wellington_plot} alt="ridgeplot" />
+
             <div>
               <div>
                 <Link to="/wellington_col" target="_blank">Wellington Rents</Link>
