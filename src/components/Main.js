@@ -57,7 +57,7 @@ class Main extends React.Component {
             <img src={wellington_plot} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
                 <div className="text">
-                  <h2><a href='../pages/wellington_col.js'>
+                  <h2><a href='../pages/wellington_col.js' className="project-text">
                     Wellington Rents
                   </a></h2>
                 <p>Investigating Rents in Wellington</p>
