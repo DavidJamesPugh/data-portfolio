@@ -200,9 +200,7 @@
 
 
 	.container {
-	  display: inline-block;
 	  width: 100%;
-		height:200px;
 	}
 
 	.image {
@@ -214,7 +212,6 @@
 		margin-left: auto;
 		margin-right: auto;
 		backface-visibility: hidden;
-
 	}
 
 	.middle {
@@ -225,7 +222,6 @@
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	  -ms-transform: translate(-50%, -50%);
-	  text-align: center;
 	}
 
 	.container:hover .image {
