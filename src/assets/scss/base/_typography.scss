@@ -209,7 +209,7 @@
 	}
 
 	.image {
-		opacity: 1;
+		opacity: 0.3;
   		display: block;
 		transition: .5s ease;
 		backface-visibility: hidden;
@@ -218,7 +218,7 @@
 
 	.middle {
 	  transition: .5s ease;
-	  opacity: 0;
+	  opacity: 1;
 		position: absolute;
 		transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%,-50%);
@@ -227,13 +227,13 @@
   		left: 50%;
 	}
 
-	.container:hover .image {
-	  opacity: 0.3;
-	}
-
-	.container:hover .middle {
-	  opacity: 1;
-	}
+	//.container:hover .image {
+	//  opacity: 0.3;
+	//}
+	//
+	//.container:hover .middle {
+	//  opacity: 1;
+	//}
 
 	.text {
 		background-color: #04AA6D;
