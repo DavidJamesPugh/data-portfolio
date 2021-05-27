@@ -53,7 +53,7 @@ class Main extends React.Component {
         >
 
           <h2 className="major">Project List</h2>
-          <div>
+          <div className="main-wrapper">
             <img src={wellington_plot} height="200px" width="390px" alt="ridgeplot" />
             <div className="portfolio-hover">
               <div className="portfolio-content">

@@ -217,3 +217,17 @@
     padding: 20px;
     transition: inherit;
 }
+
+
+.main-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: visible;
+    will-change: transform;
+    opacity: 1;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform, opacity;
+    transform: translate(0px, 0px) scale(1);
+}
