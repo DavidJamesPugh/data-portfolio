@@ -53,12 +53,16 @@ class Main extends React.Component {
         >
 
           <h2 className="major">Project List</h2>
-          <div className="main-wrapper">
-            <img src={wellington_plot} height="100px" width="195px" alt="ridgeplot" />
-            <div className="portfolio-hover">
-              <div className="portfolio-content">
-                <Link to="/wellington_col" target="_blank">Wellington Rents</Link>
-                <p>Investigating Rents in Wellington</p>
+          <div className="row shuffle-wrapper shuffle"
+               style="position: relative; overflow: hidden; height: 802.188px; transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+            ::before
+            <div className="main-wrapper">
+              <img src={wellington_plot} height="100px" width="195px" alt="ridgeplot" />
+              <div className="portfolio-hover">
+                <div className="portfolio-content">
+                  <Link to="/wellington_col" target="_blank">Wellington Rents</Link>
+                  <p>Investigating Rents in Wellington</p>
+                </div>
               </div>
             </div>
           </div>
