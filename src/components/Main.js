@@ -63,6 +63,8 @@ class Main extends React.Component {
                 <p>Investigating Rents in Wellington</p>
               </div>
             </div>
+          </div>
+          <div className="container">
             <img src={pic03} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
                 <div className="text">
