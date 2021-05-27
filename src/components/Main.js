@@ -54,10 +54,9 @@ class Main extends React.Component {
 
           <h2 className="major">Project List</h2>
           <div>
-            <img src={wellington_plot} alt="ridgeplot" />
-
-            <div>
-              <div>
+            <img src={wellington_plot} height="200px" width="390px" alt="ridgeplot" />
+            <div className="portfolio-hover">
+              <div className="portfolio-content">
                 <Link to="/wellington_col" target="_blank">Wellington Rents</Link>
                 <p>Investigating Rents in Wellington</p>
               </div>
