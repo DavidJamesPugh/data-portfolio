@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic03 from '../images/pic03.jpg'
-import wellington_plot from'../images/wellington_district.png'
+import wellington_plot from'../images/wellington_thumb.png'
 import {Link} from "gatsby";
 
 class Main extends React.Component {
