@@ -53,10 +53,11 @@ class Main extends React.Component {
         >
 
           <h2 className="major">Project List</h2>
-          {/*<img src={wellington_plot} height="100px" width="195px" alt="ridgeplot" />*/}
-          <Link to="/wellington_col" target="_blank">Wellington Rents</Link>
-          <p>Investigating Rents in Wellington</p>
-
+          <div className="img-wrap">
+            <img src={wellington_plot} height="200px" width="390px" alt="ridgeplot" />
+            <a href="../pages/wellington_col.js" className="img-description">Wellington Rents</a>
+            <p>Investigating Rents in Wellington</p>
+          </div>
           {close}
         </article>
 
