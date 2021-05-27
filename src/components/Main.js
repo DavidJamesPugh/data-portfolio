@@ -59,7 +59,7 @@ class Main extends React.Component {
                style="position: absolute; top: 0px; left: 0px; visibility: visible;
                will-change: transform; opacity: 1; transition-duration: 250ms;
                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
-            <img src={wellington_plot} alt="ridgeplot" />
+            <img src="/images/wellington_district" alt="ridgeplot" />
             <div className="portfolio-hover">
               <div className="portfolio-content">
                 <Link to="/wellington_col" target="_blank">Wellington Rents</Link>
