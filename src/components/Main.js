@@ -53,7 +53,7 @@ class Main extends React.Component {
         >
 
           <h2 className="major">Project List</h2>
-          <div style="position: relative; overflow: hidden; height: 802.188px; transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+          <div>
             <div className="main-wrapper">
               <img src={wellington_plot} height="100px" width="195px" alt="ridgeplot" />
               <div className="portfolio-hover">
