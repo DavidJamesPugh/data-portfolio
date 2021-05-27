@@ -63,15 +63,6 @@ class Main extends React.Component {
                 <p>Investigating Rents in Wellington</p>
               </div>
             </div>
-            {/*<img src={pic03} className="image" height="200px" width="100%" alt="map" />*/}
-            {/*  <div className="middle">*/}
-            {/*    <div className="text">*/}
-            {/*      <h2><a href='../pages/wellington_col.js' className="project-text">*/}
-            {/*        Covid*/}
-            {/*      </a></h2>*/}
-            {/*    <p>Investigating Covid rates</p>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
           </div>
           {close}
         </article>
