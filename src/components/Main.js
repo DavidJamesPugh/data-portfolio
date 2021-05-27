@@ -57,7 +57,7 @@ class Main extends React.Component {
             <img src={wellington_plot} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
                 <div className="text">
-                  <h2><Link to='../pages/wellington_col.js' className="project-text">
+                  <h2><Link to='wellington_col' className="project-text">
                     Wellington Rents
                   </Link></h2>
                 <p>Investigating Rents in Wellington</p>
@@ -68,7 +68,7 @@ class Main extends React.Component {
             <img src={wellington_plot} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
                 <div className="text">
-                  <h2><Link to='../pages/covid_map.js' className="project-text">
+                  <h2><Link to='covid_map' className="project-text">
                     NZ's Covid Story
                   </Link></h2>
                 <p>Investigating Covid in NZ</p>
