@@ -1,17 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import wellington_main from'../images/wellington_main.png'
+import wellington_district from'../images/wellington_district.png'
+import wellington_suburb from'../images/wellington_suburb.png'
 
 import Layout from '../components/layout'
 
 const SecondPage = () => (
   <Layout>
-    <h1>Investigating Covid using Shiny</h1>
-      <iframe height="400px" width="400" frameBorder="0"
-              src="/src/pages/covid_map.html"></iframe>
-      <br />
-      <iframe height="400px" width="100%" frameBorder="0"
-              src="https://davidjamespugh.shinyapps.io/nzcovidcases/"></iframe>
-      <br />
+      <img src={wellington_main} alt={"wellington region"}/>
+      <img src={wellington_district} alt={"wellington districts"}/>
+      <img src={wellington_suburb} alt={"wellington suburbs"}/>
+
+
     <Link to="/">Go back to the homepage</Link>
 
   </Layout>
