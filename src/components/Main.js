@@ -54,7 +54,7 @@ class Main extends React.Component {
 
           <h2 className="major align-center">Project List</h2>
           <div className="container">
-            <img src={wellington_plot} className="image" alt="ridgeplot" />
+            <img src={wellington_plot} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
                 <div className="text">
                   <h2><Link to='wellington_col' className="project-text">
@@ -65,7 +65,7 @@ class Main extends React.Component {
             </div>
           </div>
           <div className="container">
-            <img src={wellington_plot} className="image" alt="ridgeplot" />
+            <img src={wellington_plot} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
                 <div className="text">
                   <h2><Link to='covid_map' className="project-text">
