@@ -12,6 +12,12 @@ const SecondPage = () => (
       <img src={wellington_main}
            height="600px" width="800px" alt="wellington rentals overview"/>
       <br />
+      <img src={wellington_district}
+           height="600px" width="800px" alt="wellington rentals overview"/>
+      <br />
+      <img src={wellington_suburb}
+           width="800px" alt="wellington rentals overview"/>
+      <br />
 
     <Link to="/">Go back to the homepage</Link>
 
