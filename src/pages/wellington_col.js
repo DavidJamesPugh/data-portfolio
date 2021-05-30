@@ -9,7 +9,8 @@ import wellington_suburb from'../images/wellington_suburb.png'
 const SecondPage = () => (
   <Layout>
     <h1>Investigating Wellington rents</h1>
-      <img src={wellington_main} alt="wellington rentals overview"></img>
+      <img src={wellington_main}
+           height="600px" width="800px" alt="wellington rentals overview"/>
       <br />
 
     <Link to="/">Go back to the homepage</Link>
