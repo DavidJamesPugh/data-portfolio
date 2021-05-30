@@ -10,13 +10,13 @@ const SecondPage = () => (
   <Layout>
     <h1>Investigating Wellington rents</h1>
       <img src={wellington_main}
-           height="600px" width="800px" alt="wellington rentals overview"/>
+           width="800px" alt="wellington rentals overview"/>
       <br />
       <img src={wellington_district}
-           height="600px" width="800px" alt="wellington rentals overview"/>
+           width="800px" alt="wellington rentals overview"/>
       <br />
       <img src={wellington_suburb}
-           width="800px" alt="wellington rentals overview"/>
+           width="960px" alt="wellington rentals overview"/>
       <br />
 
     <Link to="/">Go back to the homepage</Link>
