@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 
 const SecondPage = () => (
   <Layout>
+    <h1>Investigating Wellington rents with R and Python</h1>
        <img src={wellington_main} alt={"wellington region"}/>
        <img src={wellington_district} alt={"wellington districts"}/>
        <img src={wellington_suburb} alt={"wellington suburbs"}/>
