@@ -52,7 +52,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
 
-          <h2 className="major align-center">Project List</h2>
+          <h2 className="align-center major">Project List</h2>
           <div className="container">
             <img src={wellington_plot} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
