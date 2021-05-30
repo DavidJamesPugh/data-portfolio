@@ -8,10 +8,8 @@ import wellington_suburb from'../images/wellington_suburb.png'
 
 const SecondPage = () => (
   <Layout>
-    <h1>Investigating Covid using Shiny</h1>
-      <iframe src="/src/pages/covid_map.html"></iframe>
-      <br />
-      <iframe src="https://davidjamespugh.shinyapps.io/nzcovidcases/"></iframe>
+    <h1>Investigating Wellington rents</h1>
+      <iframe src={wellington_main}></iframe>
       <br />
 
     <Link to="/">Go back to the homepage</Link>
