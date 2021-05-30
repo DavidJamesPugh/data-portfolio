@@ -5,7 +5,7 @@ import wellington_district from'../images/wellington_district.png'
 import wellington_suburb from'../images/wellington_suburb.png'
 import Layout from '../components/layout'
 
-const ThirdPage = () => (
+const SecondPage = () => (
   <Layout>
        <img src={wellington_main} alt={"wellington region"}/>
        <img src={wellington_district} alt={"wellington districts"}/>
@@ -17,4 +17,4 @@ const ThirdPage = () => (
   </Layout>
 )
 
-export default ThirdPage
+export default SecondPage

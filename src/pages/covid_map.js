@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
-const SecondPage = () => (
+const ThirdPage = () => (
   <Layout>
     <h1>Investigating Covid using Shiny</h1>
       <iframe height="400px" width="400" frameBorder="0"
@@ -16,4 +16,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default ThirdPage
