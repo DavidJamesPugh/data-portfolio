@@ -17,3 +17,5 @@ const ThirdPage = () => (
 
   </Layout>
 )
+
+export default ThirdPage

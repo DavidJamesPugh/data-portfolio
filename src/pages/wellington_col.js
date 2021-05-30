@@ -18,3 +18,5 @@ const SecondPage = () => (
 
   </Layout>
 )
+
+export default SecondPage
