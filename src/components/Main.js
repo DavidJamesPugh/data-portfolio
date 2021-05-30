@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic03 from '../images/pic03.jpg'
-import wellington_plot from'../images/wellington_thumb.png'
+import wellington_thumb from'../images/wellington_thumb.png'
 import {Link} from "gatsby";
 
 class Main extends React.Component {
@@ -54,7 +54,7 @@ class Main extends React.Component {
 
           <h2 className="align-center major">Project List</h2>
           <div className="container">
-            <img src={wellington_plot} className="image" height="200px" width="100%" alt="ridgeplot" />
+            <img src={wellington_thumb} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
                 <div className="text">
                   <h2><Link to='wellington_col' className="project-text">
@@ -65,7 +65,7 @@ class Main extends React.Component {
             </div>
           </div>
           <div className="container">
-            <img src={wellington_plot} className="image" height="200px" width="100%" alt="ridgeplot" />
+            <img src={wellington_thumb} className="image" height="200px" width="100%" alt="ridgeplot" />
               <div className="middle">
                 <div className="text">
                   <h2><Link to='covid_map' className="project-text">
